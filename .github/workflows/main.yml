@@ -22,5 +22,8 @@ jobs:
         name: All
         path: |
             /jdk-transform/build
+
+    - name: Running ls
+      run: ls
             
   
