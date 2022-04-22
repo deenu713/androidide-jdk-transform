@@ -24,6 +24,6 @@ jobs:
             /jdk-transform/build
 
     - name: Running ls
-      run: ls
+      run: cd jdk-transform && ls
             
   
