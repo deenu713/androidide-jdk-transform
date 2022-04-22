@@ -21,6 +21,6 @@ jobs:
       with:
         name: All
         path: |
-            androidide-jdk-transform/build
+            /build
             
   
