@@ -13,14 +13,14 @@ jobs:
         distribution: 'adopt'
         cache: gradle
     
-    - name: Running gradle assembleRelease
-      run: gradle assembleRelease
+    - name: Running gradle build
+      run: gradle build
 
     - name: Uploading Jar and Files
       uses: actions/upload-artifact@v2
       with:
         name: All
         path: |
-            /build
+            androidide-jdk-transform/build
             
   
